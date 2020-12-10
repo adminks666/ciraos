@@ -1,0 +1,47 @@
+p{margin-bottom: 5px;}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding-right: 8px;padding-left: 8px;
+}
+#tf-hardware{position: relative;}
+.big-title {font-size: 28px;margin-bottom:4px;}
+.small-desc {font-size: 12px;}
+.question-title{font-size: 18px;margin:44px 0 36px 0}
+.row-inner{width: 78%;overflow: hidden;margin: 0 auto;}
+.balance-inner{padding: 30px;overflow: hidden;margin-bottom: 16px;display: flex;align-items: center;height: 100%;}
+.part-columns{width:50%;}
+.balance-img1{width: 89%;}
+.balance-img2,.balance-img3{width: 84%;}
+.balance-explain{font-size: 18px;font-weight: bold;}
+.balance-info{line-height: 24px;font-size: 13px;}
+.main-line{width:86px;display:inline-block;height:3px;background: #20BBB9;margin-top: 10px;}
+.balance-name{font-size: 13px;}
+.jianyu-img{width: 99%!important;}
+.ambitus-inner{border:1px solid #D9CED5;margin-bottom: 15px;transition: all 0.6s;overflow: hidden;}
+.ambitus-inner:hover{transform: scale(1.06);}
+.hardware-img img{width:100%;}
+.hardware-info{padding:15px 15px 10px 15px;}
+.info-trait{font-size: 12px;margin-bottom: 2px;}
+/*下载*/
+.download-col{position: relative;}
+.download-col:nth-child(1){width:24%;}
+.download-col:nth-child(2){width:76%;}
+.download-border{overflow: hidden;border-right: 1px solid #CCCCCC;box-sizing: border-box;}
+.row-inner .download-li:last-child .download-border{border-right: none;}
+.row-inner .download-li:nth-child(1) .download-col img{width: 59%;}
+.row-inner .download-li:nth-child(3) .download-col img{width: 58%;}
+.code_app{width: 42%;position: absolute;z-index: 1;display: none;bottom: -90px;}
+.download-sort-name{font-size:17px;}
+.download-info{font-size: 12px;}
+.download-inner{padding:80px 0 94px 0}
+.load_line{background: #CCCCCC;height: 1px;width: 78%;margin: 0 auto;position: relative;top: -29px;z-index: 0;}
+.load_content{width: 75%;margin: 20px auto 38px auto;}
+.load_content .way_title{color: #333333;font-size: 16px;font-weight: bold;margin-bottom: 25px;}
+.load_way_ul{width: 100%;overflow: hidden;}
+.load_way_ul li{width:33.333%;float: left;position: relative;padding: 20px 0;}
+.load_way_ul li img{width: 50px;position: absolute;}
+.load_way_right{padding-left: 65px;}
+.load_way_right p{color: #333;font-weight: bold;font-size: 15px;}
+.load_way_right span{color: #999;font-size: 12px;}
+.download-a{color:#2178FF;margin-top: 20px;display: block;margin-bottom: 4px;}
+.wait-tips{display: none;position: absolute;bottom: -32px;box-shadow:0px 1px 3px 0px rgba(0, 0, 0, 0.46);border-radius:3px;color: #999;padding: 4px 10px;font-size: 10px;margin-bottom: 5px;}
+#tf-home{position: relative;margin-top: 65px;}

@@ -1,0 +1,47 @@
+p{margin-bottom: 5px;}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding-right: 8px;padding-left: 8px;
+}
+#tf-hardware{position: relative;}
+.netDetail{display: none}
+.netDetail-inner{display: flex;align-items: center;height: 100%;padding: 50px 0;}
+.join_selectNet {padding-top:25px;position:relative;overflow: hidden}
+.join_selectNet li {display: inline-block;font-size: 16px;line-height: 30px;padding-bottom: 5px;width: 10%;float: left;cursor: pointer;}
+.join_selectNet li span{padding-bottom: 24px;position: relative;z-index: 1}
+.join_selectNet li.selectActive span {color: #0048DC;border-bottom: 2px solid #0048DC;}
+.join_selectNet li.selectActive .icon-box{background: linear-gradient(170deg, #0048dc 0%, #b400ff 75%, #b400ff 100%);}
+.big-title {font-size: 28px;margin-bottom:4px;padding: 40px 0 20px 0;}
+.small-desc {font-size: 12px;}
+.question-title{font-size: 18px;padding-bottom: 20px;margin-top: 30px;position: relative;z-index: 2;}
+.main-line {width: 58px;display:block;height: 5px;background:linear-gradient(170deg, #0048dc 0%, #b400ff 69%, #b400ff 100%);margin:10px auto 0 auto}
+.join-spread{margin: 58px 0 30px 0;}
+.join-spread img{width:77%;}
+.join-absolute{position: absolute;width:100%;top: 25%;}
+.icon-box{width: 70px;height: 70px;border-radius: 50%;background:#ccc;margin:44px auto 0 auto;}
+.plan-icon{width: 30px;height: 70px;margin: 0 auto;background: url("../image/zhichi_icon.png")/*tpa=http://www.yunguos.com/image/zhichi_icon.png*/no-repeat;}
+.plan-icon1{background-position: 0 center;background-size:316px;}
+.plan-icon2{background-position: -29px center;background-size: 304px;}
+.plan-icon3{background-position: -60px center;background-size: 315px;}
+.plan-icon4{background-position: -88px center;background-size: 310px;}
+.plan-icon5{background-position: -115px center;background-size: 298px;}
+.plan-icon6{background-position: -151px center;background-size: 306px;}
+.plan-icon7{background-position: -171px center;background-size: 290px}
+.plan-icon8{background-position: -213px center;background-size: 308px;}
+.plan-icon9{background-position: -238px center;background-size: 300px;}
+.plan-icon10{background-position: -281px center;background-size: 310px;}
+.join_selectNet:after {content: "";position: absolute;bottom: 97px;left: 0;width: 100%;height: 1px;background-color: #CCCCCC;z-index: 0;}
+.col-right-center {width: 68%;}
+.icon-img-info {line-height: 34px;padding-top: 20px;font-size: 16px;color: #666;}
+.example-img {width: 58%;}
+.flow-contain{width:70%;margin:50px auto 60px auto;}
+.flow-list{overflow: hidden}
+.flow-list li{width:18%;float: left;display: block;height:100%;}
+.flow-list li img{width:74%;}
+.flow-list li:nth-child(even){width: 8%;}
+.flow-list li:nth-child(even) img{width: 52%;}
+.flow-info{padding-top: 30px;font-size: 14px;line-height: 26px;color: #666;}
+.flow-arrow{padding-top: 56%;}
+#tf-home{
+    position: relative;
+    margin-top: 65px;
+}

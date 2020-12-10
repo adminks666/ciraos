@@ -1,0 +1,126 @@
+
+#tf-home{
+    position: relative;
+    margin-top: 65px;
+}
+.on .menu_tab{
+    border-top: 1px solid #fff;
+}
+.selectNet {
+    padding: 10px 0 2px 0px;
+}
+.netDetail{
+    display: none;
+}
+.question-title{
+    font-size: 18px;
+    padding-bottom: 36px;
+    margin-top:40px;
+}
+.question-img{
+    width:84%;
+    padding-bottom: 46px;
+}
+.section-title.center {
+    padding: 30px 0
+}
+.big-title {
+    font-size: 28px;
+    margin-bottom:16px;
+}
+.small-desc {
+    font-size: 12px;
+}
+.icon-block{
+    overflow: hidden;
+}
+.icon-block .trait-field,.icon-block .trait-icon{
+    width: 68px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.icon-block .trait-field{
+    padding: 5px 14px 0 14px;
+    line-height: normal;
+}
+.example-img{
+    width:80%;
+    animation: jump 3s ease infinite;
+}
+.icon-img-info{
+    line-height: 30px;
+    padding-top: 20px;
+    color: #666;
+}
+.col-right-center{
+    padding-top:18%;
+    width: 68%;
+}
+.small-icon{
+    width:26px;
+}
+.example-img2{
+    width: 96%;
+    animation: jump 3s ease infinite;
+}
+.example-img3{
+    width: 64%;
+    padding-right: 11%;
+    animation: jump 3s ease infinite;
+}
+.example-img4{
+    width: 100%;
+    animation: jump 3s ease infinite;
+}
+.example-img5{
+    width: 65%;
+    padding-right: 10%;
+    animation: jump 3s ease infinite;
+}
+.scheme-list{
+    padding:40px 0 40px 0;
+}
+.section-title{
+    padding:10px 0 40px 0;
+}
+.product-types{
+    width:100%;
+    margin:0 auto;
+}
+.product-types img{
+    width: 100%;
+}
+.product-types:hover{
+    animation: jump 3s ease infinite;
+}
+/*连锁解决方案*/
+.chain-img{
+    width: 66%;
+    padding-bottom: 46px;
+}
+.chain-example-img{
+    width: 64%;
+    animation: jump 3s ease infinite;
+}
+.chain-desc{
+    font-size: 17px;
+}
+.chain-example-img6{
+    width: 92%;
+    animation: jump 3s ease infinite;
+}
+.chain-example-img3{
+    width: 88%;
+    padding-right: 5%;
+    animation: jump 3s ease infinite;
+}
+.chain-title{
+    padding: 0px 0 20px 0;
+}
+@keyframes jump{
+    0%{ transform:translateY(0) scale(1,1);}
+    /* 中间状态图片位移并且拉伸 */
+    50%{transform:translateY(-20px)}
+    100%{transform:translateY(0) scale(1,1);}
+}

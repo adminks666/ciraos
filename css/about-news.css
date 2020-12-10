@@ -1,0 +1,88 @@
+section.sec1{
+	padding: 70px 0;
+}
+section.sec1 article{
+	margin-bottom: 45px;
+}
+/* section.sec1 article ul{
+	border-top: 1px solid #ebebeb;
+}  */
+section.sec1 article ul li{
+	border-bottom: 1px solid #ebebeb;
+	padding: 30px 128px 30px 10px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+section.sec1 article ul li div.time{
+	float: left;
+	width: 10%;
+	text-align: center;
+	letter-spacing: 2px;
+}
+section.sec1 article ul li div.time>*{
+	display: block;
+}
+section.sec1 article ul li div.time span{
+	font-size: 62px;
+	line-height: 62px;
+}
+section.sec1 article ul li div.time label{
+	margin-top: 5px;
+	font-size: 16px;
+}
+section.sec1 article ul li div.text-warp{
+	width: 89.9%;
+	float: right;
+	border-left: 1px solid #c5c5c5;
+	padding-left: 15px;
+	line-height: 30px;
+}
+section.sec1 article ul li div.text-warp h3{
+	font-size: 18px;
+	color: #4C4C4C;
+	margin-bottom: 20px;
+}
+section.sec1 article ul li div.text-warp p{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	max-height: 88px;
+}
+section.sec1 article ul li div.text-warp  a.toDetail{
+	color: #ff483c;
+	display: inline-block;
+}
+section.sec1 article ul li div.text-warp  a.toDetail:hover{
+	text-decoration: underline;
+}
+section.sec1 footer{
+	text-align: center;
+}
+/*分页*/
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.pagination li{
+	display: inline;
+}
+ul.pagination li a {
+    color: #333;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+ul.pagination li a.active {
+    background-color: #ff483c;
+    color: white;
+    border: 1px solid #ff483c;
+}
+ul.pagination li a:hover:not(.active) {
+	background-color: #ddd;
+}

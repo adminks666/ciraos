@@ -1,0 +1,68 @@
+p{
+    margin-bottom: 6px;
+}
+#tf-case{
+    padding:60px 0;
+}
+.case-list-inner{
+    position: relative;
+    cursor: pointer;
+    border:1px solid rgba(230,230,230,1);
+    border-radius:3px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: all .5s;
+}
+.store-box img{
+    width:100%;
+}
+.case-list-inner .store-info{
+    padding:15px 20px 10px 20px;
+}
+.case-list-inner:hover{
+    box-shadow:0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.case-list-inner .store-hover{
+    padding:15px 20px 10px 20px;
+    position: absolute;
+    top:0;
+    height:100%;
+    background: #fff;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all .3s
+}
+.case-list-inner:hover .store-hover{
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+.store-title{
+    font-size:16px;
+}
+.store-info .store-desc{
+    color:#999;
+    font-size: 14px;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow:ellipsis;
+}
+.store-hover .store-desc{
+    color:#999;
+    font-size: 14px;
+}
+.store-details{
+    color:#999;
+    font-size: 14px;
+    line-height: 25px;
+    padding-top:6%;
+}
+.big-title{
+    font-size: 28px;
+}
+#tf-home{
+    position: relative;
+    margin-top: 65px;
+}
